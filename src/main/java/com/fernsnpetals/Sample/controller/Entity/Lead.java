@@ -14,6 +14,10 @@ import javax.persistence.Table;
 @Entity
 @Table(name="LEAD")
 public class Lead implements Serializable{
+	
+	
+	
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;

@@ -7,5 +7,7 @@ import com.fernsnpetals.Sample.controller.Entity.Lead;
 
 @Repository
 public interface LeadRepository extends JpaRepository<Lead, Integer>{
+	
+	
 
 }
